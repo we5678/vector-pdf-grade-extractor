@@ -1,0 +1,28 @@
+# Input data and generated artifacts must never be committed.
+data/
+work/
+output/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.json
+*.npy
+*.xlsx
+
+# Local, personal mappings
+names.json
+courses.json
+*names*.json
+*courses*.json
+
+# Python / editors / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
